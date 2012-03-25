@@ -38,7 +38,7 @@ namespace :check do
   end
 end
 
-task :count => ['check:brief']
+task :count => ['word_count:brief']
 namespace :word_count do
   desc "Count the number of words in the document"
   task :summary do
